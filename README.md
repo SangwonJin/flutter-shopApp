@@ -2,6 +2,12 @@
 
 A new Flutter project.
 
+Login ID: test@test.com
+      Password: 123123
+
+you can see all of item in the DB, However, only your items can be modified in 'Manage Your products' on the drawer - add, modify, delete.
+also you can do 'like' or add item in a cart, place them on order.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
