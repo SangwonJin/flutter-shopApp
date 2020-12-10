@@ -24,6 +24,7 @@ class Products with ChangeNotifier {
   }
 
   Future<void> fetchAndSetProduct([bool filterByUser = false]) async {
+    print('fetching...');
     final filterString =
         filterByUser ? 'orderBy="userId"&equalTo="$userId"' : '';
     var url =

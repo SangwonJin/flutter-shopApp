@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
               fontFamily: 'Lato',
             ),
             home: auth.isAuth
-                ? ProductOverviewScreen()
+                ? ProductsOverviewScreen()
                 : FutureBuilder(
                     future: auth.tryAutoLogin(),
                     builder: (ctx, authResultSnapshot) =>
